@@ -362,7 +362,7 @@ $varDate                 = Get-Date -Format 'yyyy-MM-dd'
 $varTime                 = Get-Date -Format "HH:mm:ss G'M'Tzzz"
 $varFnameUID             = Get-Date -Format 'yyMMdd-HHmm'
 $resultsArray            = [Collections.ArrayList]@()
-$OutputFilename          = ('{0}-{1}-SysReport' -f $varFnameUID, $varCDH)
+$OutputFilename          = ('{0}-{1}-SysReport' -f $varCDH, $varFnameUID)
 $ErrorActionPreference   = 'SilentlyContinue'
 
 
